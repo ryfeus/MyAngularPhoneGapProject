@@ -15,9 +15,23 @@
 </div>
 
 <div ng-controller="HackerNewsCtrl">
-
-
-
 </div>
 
+<div class="topcoat-list__container list">
+    <h3 class="topcoat-list__header"></h3>
+    <ul class="topcoat-list">
+        <li class="topcoat-list__item--first" ng-click="slidePage('/view1')">
+            Programs
+        </li>
+        <li class="topcoat-list__item" ng-click="slidePage('/view2')">
+            Application Process
+        </li>
+        <li class="topcoat-list__item" ng-click="slidePage('/view3')">
+            Life in Moscow
+        </li>
+        <li class="topcoat-list__item" ng-click="slidePage('/view4')">
+            FAQs
+        </li>
+    </ul>
+</div>
 <ng-include src="'partials/settingsOverlay.html'"></ng-include>
