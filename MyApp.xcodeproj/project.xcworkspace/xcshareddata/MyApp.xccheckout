@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>237F5A60-7A77-4A86-BB0A-7FAAD39C6971</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>994120E4-0B81-4125-B7A6-E0555D8596C9</key>
+		<string>https://github.com/ryfeus/SkolTech-app.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>994120E4-0B81-4125-B7A6-E0555D8596C9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ryfeus/SkolTech-app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>994120E4-0B81-4125-B7A6-E0555D8596C9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>994120E4-0B81-4125-B7A6-E0555D8596C9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SkolTech-app</string>
+		</dict>
+	</array>
+</dict>
+</plist>

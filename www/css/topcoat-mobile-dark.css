@@ -667,6 +667,16 @@ limitations under the License.
 .topcoat-list__item--first {
   border-top: 1px solid rgba(0,0,0,0.05);
 }
+.topcoat-list__item--first__Contacts {
+  margin: 0;
+  padding: 0;
+//  padding-left: 1.25rem;
+//  padding-top: 1rem;
+  padding: 1rem;
+
+  border-top: 1px solid #5e6061;
+  border-bottom: 1px solid #2f3234;
+}
 
 /*
 Copyright 2012 Adobe Systems Inc.;
