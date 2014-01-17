@@ -5,7 +5,7 @@
         </a>
     </div>
     <div class="topcoat-navigation-bar__item center half">
-        <h1 class="topcoat-navigation-bar__title">Camera</h1>
+        <h1 class="topcoat-navigation-bar__title">Admissions</h1>
     </div>
     <div class="topcoat-navigation-bar__item right quarter">
         <a class="topcoat-icon-button--quiet" ng-click="changeSettings()">
@@ -14,13 +14,10 @@
     </div>
 </div>
 
-<div class="pad" ng-controller="CameraCtrl">
-    <div class="centerize">
-        <a class="topcoat-icon-button"  ng-click="takePic()">Take Pic</a>
-        <div ng-show="picData" ng-animate="'slide'">
-            <img ng-src="{{picData}}" />
-        </div>
-    </div>
+<div ng-controller="HackerNewsCtrl">
+
+
+
 </div>
 
 <ng-include src="'partials/settingsOverlay.html'"></ng-include>

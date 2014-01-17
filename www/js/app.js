@@ -13,14 +13,14 @@ var myApp = angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.d
     })
     .config(['$routeProvider', function($routeProvider) {
         $routeProvider.when('/', {templateUrl: 'partials/homeView.html', controller: 'HomeCtrl'});
-        $routeProvider.when('/view1', {templateUrl: 'partials/notificationView.html'});
-        $routeProvider.when('/view2', {templateUrl: 'partials/geolocationView.html'});
-        $routeProvider.when('/view3', {templateUrl: 'partials/accelerometerView.html'});
-        $routeProvider.when('/view4', {templateUrl: 'partials/deviceInfoView.html'});
-        $routeProvider.when('/view5', {templateUrl: 'partials/cameraView.html'});
-        $routeProvider.when('/view6', {templateUrl: 'partials/contactsView.html'});
-        $routeProvider.when('/view7', {templateUrl: 'partials/compassView.html'});
-        $routeProvider.when('/view8', {templateUrl: 'partials/hackerNewsView.html'});
-        $routeProvider.when('/view9', {templateUrl: 'partials/hackerNewsView2.html'});
+        $routeProvider.when('/view1', {templateUrl: 'partials/courses.html'});
+        $routeProvider.when('/view2', {templateUrl: 'partials/events.html'});
+        $routeProvider.when('/view3', {templateUrl: 'partials/contacts.html'});
+        $routeProvider.when('/view4', {templateUrl: 'partials/dining.html'});
+        $routeProvider.when('/view5', {templateUrl: 'partials/commentbox.html'});
+        $routeProvider.when('/view6', {templateUrl: 'partials/news.html'});
+        $routeProvider.when('/view7', {templateUrl: 'partials/gallery.html'});
+        $routeProvider.when('/view8', {templateUrl: 'partials/admissions.html'});
+        $routeProvider.when('/view9', {templateUrl: 'partials/shuttles.html'});
         $routeProvider.otherwise({redirectTo: '/'});
   }]);

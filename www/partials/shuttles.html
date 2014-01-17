@@ -5,7 +5,7 @@
         </a>
     </div>
     <div class="topcoat-navigation-bar__item center half">
-        <h1 class="topcoat-navigation-bar__title">Accelerometer</h1>
+        <h1 class="topcoat-navigation-bar__title">Shuttles</h1>
     </div>
     <div class="topcoat-navigation-bar__item right quarter">
         <a class="topcoat-icon-button--quiet" ng-click="changeSettings()">
@@ -14,11 +14,10 @@
     </div>
 </div>
 
-<div class="pad" ng-controller="AccelerCtrl">
-    <p>X:          {{acceleration.x}}</p>
-    <p>Y:          {{acceleration.y}}</p>
-    <p>Z:          {{acceleration.z}}</p>
-    <p>Timestamp:  {{acceleration.timestamp}}</p>
+<div ng-controller="HackerNewsCtrl">
+
+
+
 </div>
 
 <ng-include src="'partials/settingsOverlay.html'"></ng-include>

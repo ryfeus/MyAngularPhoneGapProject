@@ -5,7 +5,7 @@
         </a>
     </div>
     <div class="topcoat-navigation-bar__item center half">
-        <h1 class="topcoat-navigation-bar__title">Notification</h1>
+        <h1 class="topcoat-navigation-bar__title">Contacts</h1>
     </div>
     <div class="topcoat-navigation-bar__item right quarter">
         <a class="topcoat-icon-button--quiet" ng-click="changeSettings()">
@@ -14,13 +14,10 @@
     </div>
 </div>
 
-<div class="pad" ng-controller="NotificationCtrl">
-    <div class="centerize">
-        <p><a class="topcoat-button--cta" ng-click="alertNotify()">Alert</a></p>
-        <p><a class="topcoat-button--cta" ng-click="beepNotify()">Beep</a></p>
-        <p><a class="topcoat-button--cta" ng-click="confirmNotify()">Confirm</a></p>
-        <p><a class="topcoat-button--cta" ng-click="vibrateNotify()">Vibrate</a></p>
-    </div>
+<div ng-controller="HackerNewsCtrl">
+
+
+
 </div>
 
 <ng-include src="'partials/settingsOverlay.html'"></ng-include>

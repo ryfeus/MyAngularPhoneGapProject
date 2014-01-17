@@ -5,7 +5,7 @@
         </a>
     </div>
     <div class="topcoat-navigation-bar__item center half">
-        <h1 class="topcoat-navigation-bar__title">Device Info</h1>
+        <h1 class="topcoat-navigation-bar__title">News</h1>
     </div>
     <div class="topcoat-navigation-bar__item right quarter">
         <a class="topcoat-icon-button--quiet" ng-click="changeSettings()">
@@ -14,13 +14,10 @@
     </div>
 </div>
 
-<div class="pad" ng-controller="DeviceCtrl">
-        <p>Name:                {{device.name}}</p>
-        <p>Model:               {{device.model}}</p>
-        <p>UUID:                {{device.uuid}}</p>
-        <p>Cordova:             {{device.cordova}}</p>
-        <p>Platform:            {{device.platform}}</p>
-        <p>Version:             {{device.version}}</p>
+<div ng-controller="HackerNewsCtrl">
+
+
+
 </div>
 
 <ng-include src="'partials/settingsOverlay.html'"></ng-include>
